@@ -1,4 +1,5 @@
 #include <iostream>
+#include "homework_1.hpp"
 
 using namespace std;
 
@@ -8,7 +9,8 @@ struct node{
     size_t size;
 };
 
-bool create_node();
+unique_ptr<list> create_list();
+unique_ptr<node> create_node(int val);
 
 bool push_front(); bool push_back();
 
