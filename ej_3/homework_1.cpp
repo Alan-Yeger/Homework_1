@@ -3,21 +3,28 @@
 
 using namespace std;
 
-struct node{
-    int value;
-    node* next;
-    size_t size;
-};
 
-unique_ptr<list> create_list();
-unique_ptr<node> create_node(int val);
+shared_ptr<list> create_list();
+shared_ptr<node> create_node(int val);
 
-bool push_front(); bool push_back();
+void push_front(shared_ptr<list> lista, int val); void push_back(shared_ptr<list> lista, int val);
 
-bool insert(); bool erase();
+bool insert(shared_ptr<list> lista, int pos, int val); bool erase(shared_ptr<list> lista, int pos);
 
-void print_list();
+void print_list(shared_ptr<list> lista);
 
 int main() {
+    shared_ptr<list> lista = create_list();
+    push_back(lista, 3);
+    print_list(lista);
+    push_front(lista, 1);
+    print_list(lista);
+    insert(lista, 1, 2);
+    print_list(lista);
+    insert(lista, 54, 4);
+    print_list(lista);
+    erase(lista, 57);
+    print_list(lista);
+
     return 0;
 }
