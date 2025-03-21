@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/*
+Usando la librería chrono vemos que el código tarda 4700 nanosegundos aprox 
+*/
+
 bool are_equal(const char* texto1, const char* texto2, int c);
 
 int main(){
