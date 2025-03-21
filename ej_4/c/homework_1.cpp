@@ -4,9 +4,15 @@
 
 using namespace std;
 
+/*
+Finalmente cambiamos las variables por constexpr y vemos que ahora la ejecución del código toma ahora 200 nanosegundos (al menos en mi compu)
+
+CONCLUSIÓN: Al utilizar constexpr precomputamos el resultado en tiempo de compilación y al ejecutar el código la función ya fue precomputada
+Por este motivo la ejecución del código es considerablementa más rápida en este caso, ya que no hace falta calcular nuevamente el resultado
+de la función are_equal.
+*/
+
 constexpr bool are_equal(const char* texto1, const char* texto2, int c);
-
-
 
 int main(){
 
