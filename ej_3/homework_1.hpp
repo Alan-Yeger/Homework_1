@@ -74,6 +74,7 @@ bool insert(shared_ptr<list> lista, int pos, int val) {
     else {
         cout << "Posición excede rango. Se insertó al final \n";
         push_back(lista, val);
+        return true;
     }
     
     lista->size ++;
@@ -101,11 +102,11 @@ bool erase(shared_ptr<list> lista, int pos) {
         }
 
         shared_ptr<node> to_erase = to_erase_prev->next;
+        
         if (!to_erase->next) to_erase_prev->next = nullptr; 
         
-        to_erase_prev->next = to_erase->next;
+        else to_erase_prev->next = to_erase->next;
     }
-    
     lista->size --;
     return true;
 }
