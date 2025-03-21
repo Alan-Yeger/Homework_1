@@ -1,5 +1,0 @@
-[DEBUG] <hola> 
-[INFO] <mi> 
-[WARNING] <nombre> 
-[ERROR] <es> 
-[CRITICAL] <alan> 

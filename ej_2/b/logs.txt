@@ -1,9 +1,0 @@
-[DEBUG] <ejemplo_debug> 
-[INFO] <ejemplo_info> 
-[WARNING] <ejemplo_warning> 
-[ERROR] <ejemplo_error> 
-[CRITICAL] <ejemplo_critical> 
-runtime_error on homework_1.cpp at line: 23
-la_septima on boca.madrid at line: 2018
-[SECURITY] <Access_granted to user: mscaramal>
-[SECURITY] <Access_denied to user: jalvarezcolombo>

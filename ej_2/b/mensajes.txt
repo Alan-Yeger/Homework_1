@@ -4,6 +4,9 @@ WARNING ejemplo_warning
 ERROR ejemplo_error
 CRITICAL ejemplo_critical
 runtime_error homework_1.cpp 23
-la_septima boca.madrid 2018
+la_septima boca.madrid 91218
 Access_granted mscaramal
 Access_denied jalvarezcolombo
+NOTA aprobado
+NOTA desaprobado
+exit
