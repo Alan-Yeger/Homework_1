@@ -43,7 +43,7 @@ void logMessage(string msj, Severity nivel_svr) {
 
 void logMessage(string msj_error, string archivo, int linea) {
     
-    string msj_final = msj_error + archivo + to_string(linea);
+    string msj_final = msj_error + " " + archivo + " " + to_string(linea) + "\n";
 
     ofstream outFile("logs.txt", ios::app);
     if(outFile.is_open()) {
@@ -57,7 +57,7 @@ void logMessage(string msj_error, string archivo, int linea) {
 
 void logMessage(string msj_acceso, string usuario) {
     
-    string msj_final = "[SECURITY]" + msj_acceso + "to user: " + usuario;
+    string msj_final = "[SECURITY] <" + msj_acceso + "> to user: " + usuario + "\n";
 
     ofstream outFile("logs.txt", ios::app);
     if(outFile.is_open()) {
