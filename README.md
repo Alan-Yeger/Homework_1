@@ -15,6 +15,11 @@ g++ homework_1.cpp -o ejec
 ./ejec
 ```
 
+4. Ingrese un entero, 3 por conveniencia en la consola:
+```sh
+3
+```
+
 ## Ejercicio 2
 
 ### Parte a
