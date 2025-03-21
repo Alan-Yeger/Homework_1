@@ -2,6 +2,12 @@
 #include <sstream>
 #include "homework_1.hpp"
 
+/*
+
+
+*/
+
+
 using namespace std;
 
 void logMessage(const string msj, Severity nivel_svr);
@@ -17,14 +23,14 @@ int main(){
         string input, svr, msj;
         int line = 0;
     
-        getline(cin, input);  // Leer toda la línea completa
-        stringstream ss(input);  // Convertir la línea en un stream para extraer valores
+        getline(cin, input);
+        stringstream ss(input);
     
         ss >> svr;
         if (svr == "exit") break;
         
         ss >> msj;
-        ss >> line;  // Si no hay número, `line` se queda en 0
+        ss >> line;
     
         if (line) {
             logMessage(svr, msj, line);

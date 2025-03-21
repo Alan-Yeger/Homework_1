@@ -3,7 +3,7 @@
 using namespace std;
 
 
-bool are_equal(const char* texto1, const char* texto2, int c) {
+constexpr bool are_equal(const char* texto1, const char* texto2, int c) {
 
     if (texto1[c] == '\0' && texto2[c] == '\0') return true;
 

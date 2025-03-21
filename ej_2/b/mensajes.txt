@@ -1,0 +1,9 @@
+DEBUG ejemplo_debug
+INFO ejemplo_info
+WARNING ejemplo_warning
+ERROR ejemplo_error
+CRITICAL ejemplo_critical
+runtime_error homework_1.cpp 23
+la_septima boca.madrid 2018
+Access_granted mscaramal
+Access_denied jalvarezcolombo
