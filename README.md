@@ -1,9 +1,9 @@
 ## Ejercicio 1
 
 1. Cambiar al directorio:
-    ```sh
-    cd ej_1
-    ```
+```sh
+cd ej_1
+```
 
 2. Compilar el código:
 ```sh
@@ -20,9 +20,9 @@ g++ homework_1.cpp -o ejec
 ### Parte a
 
 1. Volver al directorio inicial y cambiar al nuevo:
-    ```sh
-    cd ../ej_2/a
-    ```
+```sh
+cd ../ej_2/a
+```
 
 2. Compilar el código:
 ```sh
@@ -48,9 +48,9 @@ exit
 ### Parte b
 
 1. Volver al directorio del ej_2 y cambiar al nuevo:
-    ```sh
-    cd ../b
-    ```
+```sh
+cd ../b
+```
 
 2. Compilar el código:
 ```sh
@@ -82,9 +82,9 @@ exit
 ## Ejercicio 3
 
 1. Cambiar al directorio nuevo:
-    ```sh
-    cd ../../ej_3
-    ```
+```sh
+cd ../../ej_3
+```
 
 2. Compilar el código:
 ```sh
@@ -101,9 +101,9 @@ g++ homework_1.cpp -o ejec
 ### Parte a
 
 1. Cambiar al directorio nuevo:
-    ```sh
-    cd ../ej_4/a
-    ```
+```sh
+cd ../ej_4/a
+```
 
 2. Compilar el código:
 ```sh
@@ -118,9 +118,9 @@ g++ homework_1.cpp -o ejec
 ### Parte b
 
 1. Cambiar al directorio nuevo:
-    ```sh
-    cd ../b
-    ```
+```sh
+cd ../b
+```
 
 2. Compilar el código:
 ```sh
@@ -135,9 +135,9 @@ g++ homework_1.cpp -o ejec
 ### Parte c
 
 1. Cambiar al directorio nuevo:
-    ```sh
-    cd ../c
-    ```
+```sh
+cd ../c
+```
 
 2. Compilar el código:
 ```sh
